@@ -15,15 +15,15 @@ const itemSchema=new mongoose.Schema({
 const Item =mongoose.model("Item", itemSchema);
 
 const first=new Item({
-  name:"Finish Week 2 Assignmet"
+  name:"Task 1"
 });
 
 const second=new Item({
-  name:"Web Development course"
+  name:"Task 2"
 });
 
 const third=new Item({
-  name:"Do your research"
+  name:"Task 3"
 });
 
 const listSchema=new mongoose.Schema({
